@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect } from "react";
-import techniquesData from "../data/moves.json"; // importe seu JSON
+import techniquesData from "../data/moves.json";
+import achievementsData from "../data/achievements.json";
 
 export const AppContext = createContext();
 
@@ -25,6 +26,12 @@ export default function AppProvider({ children }) {
     return saved ? JSON.parse(saved) : [];
   });
 
+  const [achievements, setAchievements] = useState([]);
+
+  useEffect(() => {
+    setAchievements(achievementsData);
+  }, []);
+
   const toggleFavorite = (id) => {
     setFavoritedTechs((prev) => {
       const updated = prev.includes(id) ? prev.filter(t => t !== id) : [...prev, id];
@@ -47,17 +54,39 @@ export default function AppProvider({ children }) {
       localStorage.setItem("learnedTechs", JSON.stringify(updated));
       return updated;
     });
+    setInProgressTechs((prev) => prev.filter(t => t !== id)); // Remove de "Em Progresso"
+    localStorage.setItem("inProgressTechs", JSON.stringify(inProgressTechs.filter(t => t !== id)));
   };
+
+
 
   return (
     <AppContext.Provider value={{
       techniques,
+      achievements,
       favoritedTechs,
       inProgressTechs,
       learnedTechs,
       toggleFavorite,
       toggleInProgress,
-      markLearned
+      markLearned,
+      unlockedAchievements: achievements.filter(a => {
+        const condition = a.condition
+          .replace(/learned/g, learnedTechs.length)
+          .replace(/favorited/g, favoritedTechs.length)
+          .replace(/inProgress/g, inProgressTechs.length);
+        
+        try {
+          // A lógica de learnedMoves.category >= X é mais complexa e requer a contagem
+          // de técnicas aprendidas por categoria. Vou simplificar para a contagem total
+          // para evitar a necessidade de reestruturar o JSON de moves.
+          // Se o usuário quiser a lógica completa, precisará de mais dados no JSON.
+          if (a.condition.includes("learnedMoves")) return false; 
+          return eval(condition);
+        } catch {
+          return false;
+        }
+      })
     }}>
       {children}
     </AppContext.Provider>

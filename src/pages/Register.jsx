@@ -20,6 +20,7 @@ export default function Register() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    localStorage.clear();
     localStorage.setItem("user-bjj", JSON.stringify(form));
     alert("Cadastro feito com sucesso!");
     setForm({ nome: "", email: "", senha: "", idade: "", faixa: "branca" });
@@ -27,12 +28,12 @@ export default function Register() {
   }
 
   return (
-    <div className="flex items-center font-display justify-start flex-col pt-5 min-h-screen bg-[#F8F8F8]">
+    <div className="flex items-center font-display justify-start flex-col pt-5 min-h-screen bg-[#F8F8F8] p-4">
       <h1 className="text-5xl font-bold pt-10">BJJ Atlas</h1>
       <h3 className="mb-8 text-gray-600">
           Domine a arte suave
         </h3>
-      <div className="flex flex-col items-center bg-[#FFFAFA] py-10 px-10 border border-[#C6C6C6] shadow-lg rounded-3xl">
+      <div className="flex flex-col items-center bg-[#FFFAFA] py-10 px-6 sm:px-10 border border-[#C6C6C6] shadow-lg rounded-3xl w-full max-w-md">
         <h2 className=" font-semibold text-gray-800 text-2xl">
           Comece sua jornada!
         </h2>
@@ -40,7 +41,7 @@ export default function Register() {
           Crie uma conta agora e comece a treinar!
         </h3>
         <form
-          className="flex justify-center flex-col w-70 "
+          className="flex justify-center flex-col w-full"
           onSubmit={handleSubmit}
         >
           <div className="relative w-full">
@@ -55,7 +56,7 @@ export default function Register() {
             />
             <label
               htmlFor="nome"
-              className="absolute left-3 top-20 -translate-y-2/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
+              className="absolute left-3 top-3 -translate-y-1/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
                peer-placeholder-shown:top-5.5 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
                peer-focus:top-0 peer-focus:-translate-y-1/2 peer-focus:text-sm peer-focus:text-[#d11e1eff]
                peer-not-placeholder-shown:top-0 peer-not-placeholder-shown:-translate-y-1/2 peer-not-placeholder-shown:text-sm peer-not-placeholder-shown:text-gray-500"
@@ -75,7 +76,7 @@ export default function Register() {
             />
             <label
               htmlFor="email"
-              className="absolute left-3 top-20 -translate-y-2/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
+              className="absolute left-3 top-3 -translate-y-1/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
                peer-placeholder-shown:top-5.5 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
                peer-focus:top-0 peer-focus:-translate-y-1/2 peer-focus:text-sm peer-focus:text-[#d11e1eff]
                peer-not-placeholder-shown:top-0 peer-not-placeholder-shown:-translate-y-1/2 peer-not-placeholder-shown:text-sm peer-not-placeholder-shown:text-gray-500"
@@ -95,7 +96,7 @@ export default function Register() {
             />
             <label
               htmlFor="senha"
-              className="absolute left-3 top-20 -translate-y-2/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
+              className="absolute left-3 top-3 -translate-y-1/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
                peer-placeholder-shown:top-5.5 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
                peer-focus:top-0 peer-focus:-translate-y-1/2 peer-focus:text-sm peer-focus:text-[#d11e1eff]
                peer-not-placeholder-shown:top-0 peer-not-placeholder-shown:-translate-y-1/2 peer-not-placeholder-shown:text-sm peer-not-placeholder-shown:text-gray-500"
@@ -115,7 +116,7 @@ export default function Register() {
             />
             <label
               htmlFor="idade"
-              className="absolute left-3 top-20 -translate-y-2/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
+              className="absolute left-3 top-3 -translate-y-1/2 text-gray-500 text-base bg-[#FFFAFA] px-1 transition-all duration-200 ease-in-out
                peer-placeholder-shown:top-5.5 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
                peer-focus:top-0 peer-focus:-translate-y-1/2 peer-focus:text-sm peer-focus:text-[#d11e1eff]
                peer-not-placeholder-shown:top-0 peer-not-placeholder-shown:-translate-y-1/2 peer-not-placeholder-shown:text-sm peer-not-placeholder-shown:text-gray-500"

@@ -108,8 +108,8 @@ export default function Profile() {
           <p className="text-5xl font-extrabold mt-3">{learned.length}</p>
           <p className="text-gray-500 text-sm mt-4">
             Continue treinando para dominar mais técnicas!{" "}
-            <a href="/techniques" className="text-red-600 underline">
-              Ver técnicas
+            <a href="/learned" className="text-red-600 underline">
+              Ver técnicas apredidas!
             </a>
           </p>
         </div>
@@ -125,7 +125,7 @@ export default function Profile() {
           <p className="text-gray-500 text-sm mt-4">
             Técnicas que você ainda está aprendendo.{" "}
             <a href="/progress" className="text-red-600 underline">
-              Ver em progresso
+              Ver técnicas em progresso!
             </a>
           </p>
         </div>
@@ -138,7 +138,7 @@ export default function Profile() {
           <p className="text-gray-500 text-sm mt-4">
             Suas técnicas preferidas salvas!{" "}
             <a href="/favorites" className="text-red-600 underline">
-              Ver favoritas
+              Ver técnicas favoritas!
             </a>
           </p>
         </div>

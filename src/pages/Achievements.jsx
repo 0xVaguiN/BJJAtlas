@@ -9,20 +9,12 @@ export default function Achievements() {
       <h2 className="text-2xl font-semibold mb-5">Conquistas</h2>
 
       {achievements.map(a => {
-        const unlocked = unlockedAchievements.includes(a.id);
+        const unlocked = unlockedAchievements.some(unlockedA => unlockedA.id === a.id);
 
         return (
           <div
             key={a.id}
-            className="achievement-card"
-            style={{
-              opacity: unlocked ? 1 : 0.4,
-              filter: unlocked ? "none" : "grayscale(100%)",
-              padding: "14px",
-              border: "1px solid #333",
-              borderRadius: "8px",
-              marginBottom: "10px"
-            }}
+            className={`achievement-card p-3.5 rounded-lg mb-2.5 border border-[#333] ${unlocked ? "opacity-100" : "opacity-40 grayscale-100"}`}
           >
             <h3>{a.title}</h3>
             <p>{a.desc}</p>

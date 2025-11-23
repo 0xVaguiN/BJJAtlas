@@ -8,11 +8,11 @@ import Profile from './pages/Profile'
 import Achievements from './pages/Achievements'
 import Progress from './pages/Progress'
 import Favorites from './pages/Favorites'
+import Learned from './pages/Learned'
 
 
 export default function App() {
   return (
-    
       <>
         <nav className="flex flex-row items-center justify-end text-white p-2 bg-gray-950">
           <Link to="/" className="ml-5">Início</Link>
@@ -31,8 +31,8 @@ export default function App() {
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/learned" element={<Learned />} />
         </Routes>
       </>
-    
   )
 }

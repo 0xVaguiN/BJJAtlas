@@ -10,7 +10,7 @@ export default function Favorites() {
   return (
     <div className="flex flex-col tech-list">
       <h2 className="text-2xl font-display font-semibold px-8 pt-10">Técnicas Favoritas</h2>
-      <div className="flex flex-row gap-10 m-8">
+      <div className="flex flex-wrap flex-row gap-10 m-8">
       {favorites.length === 0 ? (
         <p className="text-lg font-display px-8 pt-2">Nenhuma técnica favoritada ainda.</p>
       ) : (
