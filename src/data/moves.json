@@ -6,7 +6,7 @@
     "name_pt": "Montada",
     "belt": "branca",
     "category": "posicao",
-    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/americana.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/montada.webp",
     "video": "https://www.youtube.com/embed/vid01",
     "description_pt": "A montada é uma das posições mais dominantes do Jiu-Jitsu: quem está por cima senta-se sobre o peito/abdômen do adversário com os joelhos no chão e controla o tronco, quadril e cabeça do oponente. A partir da montada você tem acesso a uma grande variedade de finalizações (armbar, chave de braço, estrangulamentos) e transições, além de excelente controle para golpear em regras que permitem strikes. A eficiência da montada vem da distribuição de peso, do controle dos membros do oponente e da habilidade de ajustar a base para impedir reversões. Para iniciantes, a ênfase deve ser em estabilidade, controle de quadril e presença de ombro para neutralizar movimentos de ponte. Em níveis intermediários e avançados, trabalha-se montagem alta/baixa, montada reversa e ataques combinados.",
     "steps": [
@@ -23,7 +23,7 @@
     "name_pt": "Arm Lock",
     "belt": "branca",
     "category": "finalizacao",
-    "image": "../../public/armlock.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/armlock.jpg",
     "video": "https://www.youtube.com/embed/vid02",
     "description_pt": "O Arm Lock clássico (armbar) é uma finalização que hiperextende o cotovelo usando os quadris como alavanca. Pode ser aplicado a partir de diversas posições — guarda fechada, guarda montada, meia-guarda e montada. A chave do armbar eficaz é controlar o braço do oponente, posicionar o quadril próximo à articulação do cotovelo e girar o corpo para isolar o membro, colocando a perna sobre a cabeça ou costas para evitar que o oponente puxe o braço. Atenção com a segurança: aplique progressivamente e respeite sinais de dor. Técnicas avançadas incluem transições rápidas entre omoplata e armbar e armbar a partir de passagens de guarda.",
     "steps": [
@@ -40,7 +40,7 @@
     "name_pt": "Chave de Panturrilha",
     "belt": "marrom",
     "category": "finalizacao",
-    "image": "../../public/chavepanturrilha.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/chavepanturrilha.jpg",
     "video": "https://www.youtube.com/embed/vid03",
     "description_pt": "A chave de panturrilha (calf slicer) é uma finalização compressiva aplicada na perna do adversário, pressionando a panturrilha ou a junção tíbio-fibular contra um antebraço, joelho ou canela. Apesar de menos comum em faixas iniciais, é muito eficaz em disputas de pernas e em situações de luta de solo onde o oponente tenta recuperar a posição. A técnica exige precisão na angulação e controle total do quadril do oponente para impedir rotação. Além de causar dor aguda na panturrilha, a compressão mal aplicada pode lesionar estruturas internas, por isso deve ser executada com controle e progressividade.",
     "steps": [
@@ -57,7 +57,7 @@
     "name_pt": "Guarda Delariva",
     "belt": "azul",
     "category": "guarda",
-    "image": "../../public/guarda_delariva.webp",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/guarda_delariva.webp",
     "video": "https://www.youtube.com/embed/vid04",
     "description_pt": "A guarda De La Riva é uma guarda aberta em que o praticante prende uma das pernas ao redor do exterior da perna do adversário (gancho De La Riva) enquanto segura as mãos, lapela ou manga do parceiro para controlar sua postura e equilíbrio. É uma guarda altamente dinâmica utilizada para variações de raspagens, ataques de pernas e transições para guarda aranha ou guarda guarda-fechada. Exige mobilidade de quadril, controle de pegada e leitura do peso do adversário. De La Riva é ótima para neutralizar passadores e preparar ataques como entradas para ás de perna ou variações de triângulo quando o oponente se expõe.",
     "steps": [
@@ -74,7 +74,7 @@
     "name_pt": "Guarda Fechada",
     "belt": "branca",
     "category": "guarda",
-    "image": "../../public/guarda_fechada.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/guarda_fechada.jpg",
     "video": "https://www.youtube.com/embed/vid05",
     "description_pt": "A guarda fechada é uma posição fundamental do Jiu-Jitsu em que você está de costas no solo com as pernas fechadas ao redor do quadril do adversário, controlando-o e limitando seus movimentos. É uma base excelente para controlar, atacar com armlocks, triângulos, omoplatas e variações de raspagem. A eficiência da guarda fechada depende do controle de cabeça e braços do adversário, do ângulo que você cria com o corpo e da habilidade de abrir espaço usando quadris. Treinar postura, quebras de postura do adversário e combinações de ataque/transição é essencial para tirar máximo proveito dessa posição.",
     "steps": [
@@ -91,7 +91,7 @@
     "name_pt": "Guarda Borboleta",
     "belt": "azul",
     "category": "guarda",
-    "image": "../../public/guarda_borboleta.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/guarda_borboleta.jpg",
     "video": "https://www.youtube.com/embed/vid06",
     "description_pt": "A guarda borboleta é uma guarda sentada com ganchos debaixo das coxas do adversário (ganchos de borboleta) que permite variações de raspagem, variações de distância e controle de postura. É especialmente útil contra adversários maiores, pois permite criar alavancas com os ganchos para levantar e desequilibrar. A técnica favorece movimentos explosivos, trocas de pegada e raspagens laterais, além de transições para meia-guarda ou meia-guarda invertida. Trabalhar timing e sensibilidade das pegadas é essencial para uma borboleta eficiente.",
     "steps": [
@@ -108,7 +108,7 @@
     "name_pt": "Kimura",
     "belt": "roxa",
     "category": "finalizacao",
-    "image": "../../public/kimura.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/kimura.jpg",
     "video": "https://www.youtube.com/embed/vid07",
     "description_pt": "A Kimura é uma chave de ombro em que o praticante segura o pulso do adversário e cria uma alavanca em “L” envolvendo o braço com as mãos (empunhadura de Kimura). Pode ser aplicada a partir da guarda, meia-guarda, montada e em pé. A força aplicada rotaciona o ombro, causando dor e potencial lesão se não houver rendição. Além da finalização direta, a Kimura é uma ferramenta tática para controlar e transicionar, permitindo variações como Kimura para armlock, queda ou para passagem de guarda. Controle de pegadas e posicionamento do quadril são críticos para não perder a vantagem.",
     "steps": [
@@ -125,7 +125,7 @@
     "name_pt": "Mata-leão",
     "belt": "roxa",
     "category": "finalizacao",
-    "image": "../../public/mataleao.webp",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/mataleao.webp",
     "video": "https://www.youtube.com/embed/vid08",
     "description_pt": "O mata-leão, conhecido em inglês como rear naked choke, é um estrangulamento aplicado por trás do oponente com um braço ao redor do pescoço e a outra mão reforçando a pegada. É uma das finalizações mais efetivas porque ataca diretamente o fluxo sanguíneo (carótidas), levando o adversário à inconsciência rapidamente se aplicado corretamente. Dominar a pegada, o posicionamento dos cotovelos e o controle das costas do adversário são pontos-chave. Segurança é essencial: nunca aplicar força súbita sem controle; a pressão deve ser gradual até a rendição.",
     "steps": [
@@ -142,7 +142,7 @@
     "name_pt": "Triângulo",
     "belt": "azul",
     "category": "finalizacao",
-    "image": "../../public/triangulo.jpeg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/triangulo.jpeg",
     "video": "https://www.youtube.com/embed/vid09",
     "description_pt": "O triângulo é um estrangulamento onde você usa as pernas para formar um triângulo ao redor do pescoço e de um braço do adversário, comprimindo as artérias carótidas e causando rendição. Normalmente executado da guarda, exige boa flexibilidade, timing e controle do braço que fica dentro do triângulo. Para ser eficaz, é preciso puxar a cabeça do oponente para dentro do triângulo e ajustar o ângulo do quadril, cruzando e fechando as pernas, além de apertar o joelho sobre a panturrilha para impedir aberturas. Triângulos podem ser combinados com armlocks e raspagens para maior eficiência.",
     "steps": [
@@ -159,7 +159,7 @@
     "name_pt": "Omoplata",
     "belt": "marrom",
     "category": "finalizacao",
-    "image": "../../public/omoplata.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/omoplata.jpg",
     "video": "https://www.youtube.com/embed/vid10",
     "description_pt": "A Omoplata é uma finalização de ombro que utiliza as pernas para torcer o braço do adversário em rotação externa, afetando a articulação do ombro. Frequentemente aplicada a partir da guarda fechada ou guarda aberta, também é usada como transição para variações de finalização ou para ganhar posições. Exige coordenação entre controle de pegadas, abertura de quadril e pressão com as pernas. Em competições, a omoplata pode ser convertida em estrangulamento, armbar ou raspagem, tornando-a uma técnica versátil e estratégica.",
     "steps": [
@@ -176,7 +176,7 @@
     "name_pt": "Passagem de Guarda",
     "belt": "azul",
     "category": "passagem",
-    "image": "../../public/passage_de_guarda.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/passage_de_guarda.jpg",
     "video": "https://www.youtube.com/embed/vid11",
     "description_pt": "A passagem de guarda conhecida como knee slice (fatiada de joelho) é uma técnica de passagem onde você corta a perna do adversário com o joelho, controlando quadril e tronco, para chegar à meia-guarda ou montada. É uma passagem de pressão que combina controle de grips, bloqueio de quadril e estabilização do corpo para impedir a recuperação da guarda. A eficiência depende de neutralizar as pernas do adversário, manter o peso direcionado ao quadril dele e progredir com paciência e precisão.",
     "steps": [
@@ -193,7 +193,7 @@
     "name_pt": "Raspagem de Gancho",
     "belt": "branca",
     "category": "raspagem",
-    "image": "../../public/raspagem_gancho.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/raspagem_gancho.jpg",
     "video": "https://www.youtube.com/embed/vid12",
     "description_pt": "A raspagem de gancho simples (single hook sweep) tira proveito de um gancho de perna para desequilibrar o adversário e girar para cima, conseguindo a posição de montada ou lateral. É uma raspagem eficiente para iniciantes porque combina o uso dos quadris, alavanca e timing. A técnica exige coordenação entre puxada de braço/manga e elevação com o gancho, seguida de rotação do corpo. Bom controle das pegadas e leitura da base do adversário aumentam a taxa de sucesso dessa raspagem.",
     "steps": [
@@ -210,7 +210,7 @@
     "name_pt": "Entrada de Perna",
     "belt": "marrom",
     "category": "queda",
-    "image": "../../public/ashi_garami.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/ashi_garami.jpg",
     "video": "https://www.youtube.com/embed/vid13",
     "description_pt": "A entrada de perna em posições como Single Leg X ou Ashi Garami concentra-se em controlar uma das pernas do adversário enquanto se utiliza das pernas para prender e isolar. Essa posição é base para ataques de tornozelo, chave de calcanhar e raspagens. Requer compreensão de alavancas nas pernas, controle de postura e timing para evitar que o adversário recupere a base ou force a separação. Técnicas avançadas exploram transições rápidas para leglocks e variações de controle de perna interna/externa.",
     "steps": [
@@ -227,7 +227,7 @@
     "name_pt": "Chave de Calcanhar",
     "belt": "preta",
     "category": "finalizacao",
-    "image": "../../public/heelhook.webp",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/heelhook.webp",
     "video": "https://www.youtube.com/embed/vid14",
     "description_pt": "A chave de calcanhar (heel hook) é uma finalização de perna altamente eficiente e potencialmente perigosa, que aplica torção ao tornozelo e ao joelho através do calcanhar. Devido ao risco de lesão grave, em muitos esportes e faixas inferiores a técnica é controlada ou proibida; quando permitida, exige extrema cautela e execução técnica. A chave de calcanhar ataca o ligamento colateral e estruturas internas do joelho ao girar a tíbia sobre o fêmur. Treinar progressivamente com supervisão e usar controle pode reduzir riscos. É uma ferramenta poderosa em leglock systems e em competições de submission-only.",
     "steps": [
@@ -244,7 +244,7 @@
     "name_pt": "Meia-guarda",
     "belt": "azul",
     "category": "guarda",
-    "image": "../../public/meia_guarda.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/meia_guarda.jpg",
     "video": "https://www.youtube.com/embed/vid15",
     "description_pt": "A meia-guarda é uma posição onde você tem uma perna entre as pernas do adversário e a outra perna presa sob a sua perna/oponente, oferecendo uma combinação de controle e opções de raspagem ou variação para recuperar a guarda completa. É muito utilizada por lutadores que preferem um jogo de controle mais próximo e transições para finalizações de perna e arm locks. Uma meia-guarda bem executada limita a pressão do passador e cria ângulos para raspagens que podem levar à montada ou às costas do adversário.",
     "steps": [
@@ -261,7 +261,7 @@
     "name_pt": "Ezekiel Choke",
     "belt": "marrom",
     "category": "finalizacao",
-    "image": "../../public/ezekiel.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/ezekiel.jpg",
     "video": "https://www.youtube.com/embed/vid16",
     "description_pt": "O estrangulamento Ezekiel é um choke tradicional do judô adaptado ao Jiu-Jitsu, que usa a manga ou o próprio antebraço para pressionar a traqueia do adversário, geralmente aplicado a partir da montada ou dentro da guarda quando se controla a cabeça. É uma finalização surpresa porque muitas vezes o braço que estrangula vem por dentro do colarinho do oponente. Exige coordenação da pega e posicionamento da cabeça para gerar pressão eficiente. Em regras que permitem esse choke, é uma ferramenta útil contra adversários que defendem bem outras finalizações.",
     "steps": [
@@ -278,7 +278,7 @@
     "name_pt": "Passagem Stack",
     "belt": "roxa",
     "category": "passagem",
-    "image": "../../public/stack_pass.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/stack_pass.jpg",
     "video": "https://www.youtube.com/embed/vid17",
     "description_pt": "A passagem stack é uma técnica de passagem de guarda que usa pressão vertical — empilhar o adversário levantando seus quadris em direção a cabeça — para desmontar os ganchos e abrir a guarda. Ao empilhar, você diminui a mobilidade das pernas do adversário, facilita o controle das pernas e cria espaço para cortar e estabelecer uma base de passagem. É muito eficaz contra guardas abertas e ganchos ativos, mas exige cuidado para não expor braços a kimuras ou omoplatas enquanto empilha.",
     "steps": [
@@ -295,7 +295,7 @@
     "name_pt": "Americana",
     "belt": "branca",
     "category": "finalizacao",
-    "image": "../../public/americana.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/americana.jpg",
     "video": "https://www.youtube.com/embed/vid18",
     "description_pt": "A Keylock, ou Americana, é uma chave de ombro que consiste em controlar o pulso e usar a outra mão para empurrar o cotovelo do adversário em rotação interna, causando pressão no ombro. É frequentemente aplicada quando se tem o controle lateral ou montada. A técnica é segura quando aplicada com progressão e controle, sendo uma boa ferramenta para iniciantes aprenderem o conceito de alavanca em articulações. A Keylock também é usada como setup para outras transições e para controlar o adversário no chão.",
     "steps": [
@@ -312,7 +312,7 @@
     "name_pt": "Raspagem de Quadril",
     "belt": "branca",
     "category": "raspagem",
-    "image": "../../public/hip_bump.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/hip_bump.jpg",
     "video": "https://www.youtube.com/embed/vid19",
     "description_pt": "A raspagem de quadril (hip bump sweep) é uma raspagem direta que usa a energia do quadril para derrubar o adversário quando ele se senta ou posta em cima de você. É uma raspagem simples e poderosa para principiantes porque depende mais de timing e explosão do que de complexas pegadas. Ao executar corretamente, você usa a elevação do tronco e o impacto do quadril para girar o adversário e completar a passagem para a montada.",
     "steps": [
@@ -329,7 +329,7 @@
     "name_pt": "Lapela Choke",
     "belt": "roxa",
     "category": "finalizacao",
-    "image": "../../public/lapela_choke.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/lapela_choke.jpg",
     "video": "https://www.youtube.com/embed/vid20",
     "description_pt": "O estrangulamento pela lapela explora o quimono (lapela) para criar um choke envolvendo o pescoço do adversário. Existem muitas variações — ex.: bolo wrap, fighter’s choke — e todas exigem habilidade com grips e manuseio da lapela. É uma técnica muito versátil em Jiu-Jitsu com quimono e combina bem com transições de guarda e ataques a partir das costas. A eficácia depende de como você controla a mão do adversário e posiciona a ponta da lapela na nuca ou atrás da cabeça para comprimir as carótidas.",
     "steps": [
@@ -346,7 +346,7 @@
     "name_pt": "Anaconda",
     "belt": "roxa",
     "category": "finalizacao",
-    "image": "../../public/anaconda.jpg",
+    "image": "https://raw.githubusercontent.com/0xVaguiN/BJJAtlas/refs/heads/main/public/anaconda.jpg",
     "video": "https://www.youtube.com/embed/vid21",
     "description_pt": "O estrangulamento Anaconda é um choke de compressão e alavanca que normalmente surge a partir de entradas no solo quando você controla a cabeça e um braço do adversário. A técnica consiste em enlaçar o pescoço e o braço do oponente com os braços, girar o corpo e finalizar comprimindo as carótidas e aplicando torque através do tronco e quadril. É muito eficiente em transições de queda, scrambles e quando o oponente tenta pressionar por cima; permite tanto o tap por estrangulamento quanto a transição para posições de controle (por exemplo, para as costas ou para o mount). A execução segura requer controle firme do braço isolado, ajuste do ângulo do corpo para maximizar a alavanca e progressão lenta na pressão para evitar lesões. Em treinos e competições, a Anaconda é valorizada pela sua versatilidade — pode ser aplicada de joelho, da meia-guarda, ou até em pé após uma queda — e por oferecer múltiplas opções de finalização e controle.",
     "steps": [
