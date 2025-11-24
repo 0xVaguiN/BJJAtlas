@@ -54,7 +54,7 @@ export default function AppProvider({ children }) {
       localStorage.setItem("learnedTechs", JSON.stringify(updated));
       return updated;
     });
-    setInProgressTechs((prev) => prev.filter(t => t !== id)); // Remove de "Em Progresso"
+    setInProgressTechs((prev) => prev.filter(t => t !== id));
     localStorage.setItem("inProgressTechs", JSON.stringify(inProgressTechs.filter(t => t !== id)));
   };
 
@@ -77,10 +77,6 @@ export default function AppProvider({ children }) {
           .replace(/inProgress/g, inProgressTechs.length);
         
         try {
-          // A lógica de learnedMoves.category >= X é mais complexa e requer a contagem
-          // de técnicas aprendidas por categoria. Vou simplificar para a contagem total
-          // para evitar a necessidade de reestruturar o JSON de moves.
-          // Se o usuário quiser a lógica completa, precisará de mais dados no JSON.
           if (a.condition.includes("learnedMoves")) return false; 
           return eval(condition);
         } catch {
