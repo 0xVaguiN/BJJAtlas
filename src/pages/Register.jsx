@@ -19,8 +19,8 @@ export default function Register() {
 
 
   function handleSubmit(e) {
-    e.preventDefault();
     localStorage.clear();
+    e.preventDefault();
     localStorage.setItem("user-bjj", JSON.stringify(form));
     alert("Cadastro feito com sucesso!");
     setForm({ nome: "", email: "", senha: "", idade: "", faixa: "branca" });
@@ -158,7 +158,6 @@ export default function Register() {
             </label>
           </div>
           <button
-
             type="submit"
             className="p-2.5 mb-2.5 rounded-xl cursor-pointer hover:bg-red-500 transition-all duration-300 ease-in-out font-medium text-md text-white bg-[#d11e1eff]"
           >
