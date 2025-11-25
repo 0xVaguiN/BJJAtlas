@@ -58,7 +58,7 @@ export default function Home() {
             Três passos simples para começar a evoluir suas habilidades
           </p>
         </div>
-        <div className="relative flex flex-wrap flex-col justify-center md:flex-row mt-16 px-5 gap-8 md:gap-10">
+        <div className="relative flex flex-wrap flex-col items-center md:justify-center md:flex-row mt-16 px-5 gap-8 md:gap-10">
           <div className="relative w-full max-w-xs md:mx-20 mb-16 transition-all duration-300 ease-in-out hover:-translate-3.5 md:w-75 md:mb-0">
             <div className="absolute -top-5 left-1/2 -translate-x-30 w-14 h-14 flex items-center justify-center text-white font-bold text-2xl rounded-xl bg-red-500">1</div>
             <div className="w-full h-[300px] min-h-[260px] bg-[#FFFAFA] border border-[#C6C6C6] shadow-lg rounded-2xl p-4 pt-10">
